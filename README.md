@@ -31,6 +31,9 @@ Convolutional Neural Network
 
 The dataset consists of 2339 images of malignant and benign oncological diseases, which were formed by the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
+![Alt text](sampleimages.png)
+
+
 The data set contains the following diseases:
 
 - Actinic keratosis
@@ -60,22 +63,21 @@ The data set contains the following diseases:
 ### Baseline Model
 
 Accuracy and Loss charts for the baseline model
-![Alt text](Baseline%20model.png)
+![Alt text](model1.png)
 
 ### Augmented Model
 
 Accuracy and Loss charts for the augmented model
-![Alt text](Augmented%20model.png)
+![Alt text](afteraugmentation.png)
 
 ### Final Model
 
 Accuracy and Loss charts for the final model
-![Alt text](Final%20model.png)
+![Alt text](final.png)
 
 # Conclusion
 
-As the accuracy of the model increases, the loss decreases. The final model has an accuracy of 87% and a loss of 0.3. The model is able to predict the class of the lesion with a high accuracy.
-Augmenting the data and countering class imbalance helped in improving the accuracy of the model.
+The training and validation accuracies are nearly identical, indicating a well-fitted model. Over 30 epochs, the model shows a steady improvement in both training and validation accuracies, reaching around 92% and 84.8% respectively, which suggests that the model is performing well and effectively classifying the images with high accuracy.
 
 # Technologies Used
 
